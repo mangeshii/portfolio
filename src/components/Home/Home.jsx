@@ -12,7 +12,7 @@ const Home = () => {
                     </a> */}
                 </nav>
                 <div className="container-fluid">
-                    <div className="container">
+                    <div className="cont">
                         <div className="row">
                             <div className="avtar col-md-3 col-xs-12">
                                 <img
@@ -23,7 +23,7 @@ const Home = () => {
                             </div>
                             <div className="aboutme col-md-9 col-xs-12">
                                 <h6>Hello! I'm Mangeshi</h6>
-                                <h1>Front-End Developer</h1>
+                                <h3>Front-End Developer</h3>
                                 <h6>
                                     I design and develop responsive, optimized
                                     and efficient websites.

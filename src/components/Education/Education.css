@@ -1,0 +1,136 @@
+
+.educationWrapper{
+	width: 80%;
+	background-color: white;
+	margin-top: -7rem;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left:10%
+}
+
+.container1 {
+	/* min-height: 100vh; */
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+	/* border: 2px solid red; */
+	height:90vh
+}
+
+.timeline {
+	width: 80%;
+	/* height: auto; */
+	max-width: 800px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.timeline-text {
+	background-color: #3b444b;
+    border-radius: 10px;
+	color:white;
+}
+
+@media only screen and (min-width: 768px) {
+	.timeline::before {
+		content: '';
+		position: absolute;
+		height: 100%;
+		width: 4px;
+		left: 50%;
+		background-color: #3b444b;
+
+		transform: translateX((-50%));
+	}
+
+	.timeline-text {
+		width: 50%;
+		margin-bottom: 10px;
+		position: relative;
+        color: white;
+        padding: 10px;
+	}
+
+	.timeline-text:nth-child(odd) {
+		float: left;
+		clear: right;
+		transform: translate(-30px);
+	}
+
+	.timeline-text:nth-child(even) {
+		float: right;
+		clear: left;
+		transform: translate(30px);
+	}
+
+	.timeline-text::after {
+		content: '';
+		position: absolute;
+		height: 20px;
+		width: 20px;
+		background-color: white;
+		border: 2px solid #3b444b;
+		border-radius: 50%;
+		top: 0;
+
+	}
+
+	.timeline-text:nth-child(odd)::after {
+		right: -30px;
+		transform: translate(50%, -50%);
+	}
+
+	.timeline-text:nth-child(even)::after {
+		left: -30px;
+		transform: translate(-50%, 50%);
+	}
+	.timeline-text:hover:after {
+		background-color: gray;
+	}
+}
+
+.edu {
+	margin-bottom: 100px;
+	font-size: 5rem;
+	font-weight: 600;
+	text-align: center;
+	font-family: "Bree Serif";
+	color:#4324f1
+}
+
+.timeline-text h2 {
+	font-size: 1.5rem;
+	margin-top: 1rem;
+	font-family: "Rubik";
+
+}
+
+.timeline-text p {
+	font-size: 1rem;
+	font-family: 'Kanit';
+	font-family: "Rubik";
+}
+
+@media only screen and (max-width: 400px){
+	.educationWrapper{
+		width: 80%;
+		font-family: "Bree Serif";
+		margin-top: -4rem;
+
+	}
+
+	.edu{
+		width:fit-content;
+		display:block;
+		font-size: 10vw;
+		margin-left: 10px;
+		font-weight: 600;
+		color:#4324f1;
+		/* border:2px solid red; */
+		margin-bottom: 15px;
+
+	}
+}
