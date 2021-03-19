@@ -51,34 +51,7 @@ img {
 
 }
 
-.aboutWrapper {
-    border: 2px solid blue;
-    height: 100vh;
-    width: 100%;
-}
-.about {
-    border: 2px solid gray;
-    width: 100%;
-    height: 60vh;
-    background-color: #4324f1;
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.aboutcontent {
-    width: 60%;
-}
-.aboutcontent h3 {
-    color: white;
-    font-size: 4.5vh;
-    font-family: "Rubik";
-}
-.aboutcontent h6{
-    font-size: 3vh;
-    font-family: "Rubik";
-}
+
 @media only screen and (max-width: 768px) {
     .aboutme {
         text-align: center;
