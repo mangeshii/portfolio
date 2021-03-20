@@ -1,16 +1,33 @@
 .skillWrapper {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 100vh;
 }
 .skillHeading {
     /* border:2px solid blue; */
     height: 50%;
     background-color: #4324f1;
+    padding-top:5%
+}
+.skillHeading h2{
+    /* border:2px solid yellow; */
+    color: white;
+    font-size: 3rem;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+.skillHeading h5{
+    /* border: 2px solid yellowgreen; */
+    font-family: "Rubik";
+    text-align: center;
+    font-size: 1.7rem;
+    color:white;
+    margin-top: 1%;
+
 }
 .skillStack {
     /* border:2px solid yellow; */
     height: fit-content;
-    margin-top: -5rem;
+    margin-top: -6rem;
     background-color: white;
     border-radius: 20px;
     display: flex;
