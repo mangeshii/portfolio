@@ -1,0 +1,17 @@
+.projectWrapper {
+    width: 99vw;
+    display: inline-block;
+    margin-top: 15%;
+}
+.projCont {
+
+}
+.col-sm-4 {
+    margin: 15px 0px;
+}
+.card {
+    border: 2px solid black;
+    height:250px
+
+}
+
