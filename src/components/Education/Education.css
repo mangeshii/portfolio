@@ -8,12 +8,15 @@
     display: flex;
     justify-content: center;
 	left:10%;
-	border:2px solid blue;
+	/* border:2px solid blue; */
+
+
 
 }
 .main{
 	/* border:4px solid greenyellow; */
-	height:100vh
+	width:100%
+
 }
 
 .container1 {
@@ -100,7 +103,7 @@
 
 .edu {
 	margin-bottom: 100px;
-	font-size: 5rem;
+	font-size: 3rem;
 	font-weight: 600;
 	text-align: center;
 	font-family: "Bree Serif";
@@ -125,6 +128,7 @@
 		width: 80%;
 		font-family: "Bree Serif";
 		margin-top: -4rem;
+		/* height:auto */
 
 	}
 
@@ -132,11 +136,18 @@
 		width:fit-content;
 		display:block;
 		font-size: 10vw;
-		margin-left: 10px;
+		margin-left: 25px;
 		font-weight: 600;
 		color:#4324f1;
 		/* border:2px solid red; */
 		margin-bottom: 15px;
 
 	}
+	.main{
+		/* width:100%; */
+		height: 100vh;
+
+	}
+
+
 }

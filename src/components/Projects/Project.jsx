@@ -3,7 +3,7 @@ const Project = () => {
     return (
         <div className="projectWrapper container-fluid">
             <div className="container projCont">
-                <h1>myWork</h1>
+                <h1>MyWork</h1>
 
                 <div class="row">
                     <div class="col-sm-4 col-xs-12">
