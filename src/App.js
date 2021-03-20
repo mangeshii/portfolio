@@ -10,7 +10,7 @@ function App() {
       <About/>
       <Education/>
       <Project/>
-      <Skills/>
+      {/* <Skills/> */}
       </>
     )
 }
