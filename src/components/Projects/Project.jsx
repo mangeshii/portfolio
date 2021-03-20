@@ -1,4 +1,10 @@
 import "./Project.css";
+import pokedex from "../../images/pokedex.png";
+import weatherapp from "../../images/weather_app.png"
+import todo from "../../images/todo.png"
+import randomquote from "../../images/random_quote.png"
+import portfolio from "../../images/portfolio.png"
+
 const Project = () => {
     return (
         <div className="projectWrapper container-fluid">
@@ -6,11 +12,16 @@ const Project = () => {
             <div className="contain projCont">
                 <div class="flip-card col-md-4">
                     <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <img
-                                src="img_avatar.png"
+                        <div class="flip-card-front card1" style={{backgroundImage:
+                                        "linear-gradient(to bottom, rgba(0,0,0, 0.5), rgba(0,0,0, 0.75))"}} >
+                            <img className="frontcard"
+                                src={weatherapp}
                                 alt="Avatar"
-                                style={{ width: "300px", height: "300px" }}
+                                style={{
+                                    width: "100%",
+                                    height: "300px",
+
+                                }}
                             />
                         </div>
                         <div class="flip-card-back">
@@ -22,11 +33,11 @@ const Project = () => {
                 </div>
                 <div class="flip-card col-md-4">
                     <div class="flip-card-inner">
-                        <div class="flip-card-front">
+                        <div class="flip-card-front card2">
                             <img
-                                src="img_avatar.png"
+                                src={pokedex}
                                 alt="Avatar"
-                                style={{ width: "300px", height: "300px" }}
+                                style={{width: "100%", height: "300px"}}
                             />
                         </div>
                         <div class="flip-card-back">
@@ -38,11 +49,11 @@ const Project = () => {
                 </div>
                 <div class="flip-card col-md-4">
                     <div class="flip-card-inner">
-                        <div class="flip-card-front">
+                        <div class="flip-card-front card3">
                             <img
-                                src="img_avatar.png"
+                                src={todo}
                                 alt="Avatar"
-                                style={{ width: "300px", height: "300px" }}
+                                style={{ width: "100%", height: "300px" }}
                             />
                         </div>
                         <div class="flip-card-back">
@@ -54,11 +65,11 @@ const Project = () => {
                 </div>
                 <div class="flip-card col-md-4">
                     <div class="flip-card-inner">
-                        <div class="flip-card-front">
+                        <div class="flip-card-front card4">
                             <img
-                                src="img_avatar.png"
+                                src={randomquote}
                                 alt="Avatar"
-                                style={{ width: "300px", height: "300px" }}
+                                style={{ width: "100%", height: "300px" }}
                             />
                         </div>
                         <div class="flip-card-back">
@@ -70,11 +81,11 @@ const Project = () => {
                 </div>
                 <div class="flip-card col-md-4">
                     <div class="flip-card-inner">
-                        <div class="flip-card-front">
+                        <div class="flip-card-front card5">
                             <img
-                                src="img_avatar.png"
+                                src={portfolio}
                                 alt="Avatar"
-                                style={{ width: "300px", height: "300px" }}
+                                style={{ width: "100%", height: "300px" }}
                             />
                         </div>
                         <div class="flip-card-back">

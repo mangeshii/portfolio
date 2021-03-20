@@ -17,7 +17,7 @@ const Home = () => {
                             <div className="avtar col-md-3 col-xs-12">
                                 <img
                                     src={avtar}
-                                    className="img-fluid"
+                                    className="img-fluid avtarimg"
                                     alt="avtarImage"
                                 />
                             </div>
