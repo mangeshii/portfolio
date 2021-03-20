@@ -1,0 +1,49 @@
+.skillWrapper {
+    border: 2px solid red;
+    height: 100vh;
+}
+.skillHeading {
+    /* border:2px solid blue; */
+    height: 50%;
+    background-color: #4324f1;
+}
+.skillStack {
+    /* border:2px solid yellow; */
+    height: fit-content;
+    margin-top: -5rem;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i {
+    font-size: 6vw;
+}
+.fa-html5 {
+    color: #e34c26;
+}
+.fa-css3-alt {
+    color: #4db4d7;
+}
+
+.fa-js {
+    color: #f0db4f;
+}
+.fa-bootstrap {
+    color: #806abc;
+}
+.fa-react {
+    color: #61dbfb;
+}
+.fa-sass {
+    color: #cd6799;
+}
+.fa-git-alt {
+    color: #f34f29;
+}
