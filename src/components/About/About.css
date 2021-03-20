@@ -23,8 +23,9 @@
 }
 .aboutcontent h3 {
     color: white;
-    font-size: 3rem;
+    font-size: 5vw;
     font-family: "Bree Serif";;
+    margin-bottom: 3%;
     /* border:2px solid black; */
     /* margin-bottom: 5%; */
 }

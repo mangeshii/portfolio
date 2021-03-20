@@ -7,8 +7,9 @@ import portfolio from "../../images/portfolio.png";
 
 const Project = () => {
     return (
+        <>
         <div className="projectWrapper container-fluid">
-            <h1>MyWork</h1>
+            <h3>MyWork</h3>
             <div className="contain projCont">
                 <div class="flip-card col-md-4 col-xs-12">
                     <div class="flip-card-inner">
@@ -20,16 +21,11 @@ const Project = () => {
                                 className="frontcard"
                                 src={weatherapp}
                                 alt="Avatar"
-                                // style={{
-                                //     width: "100%",
-                                //     height: "300px",
-                                //     opacity:0.3
-                                // }}
                             />
-                            <h1>WEATHER APP</h1>
+                            <h3>WEATHER APP</h3>
                         </div>
                         <div class="flip-card-back">
-                            <h1>John Doe</h1>
+                            <h3>John Doe</h3>
                             <p>Architect & Engineer</p>
                             <p>We love that guy</p>
                         </div>
@@ -44,10 +40,10 @@ const Project = () => {
                                 alt="Avatar"
                                 // style={{ width: "100%", height: "300px",opacity:0.3 }}
                             />
-                            <h1>POKEDEX</h1>
+                            <h3>POKEDEX</h3>
                         </div>
                         <div class="flip-card-back">
-                            <h1>John Doe</h1>
+                            <h3>John Doe</h3>
                             <p>Architect & Engineer</p>
                             <p>We love that guy</p>
                         </div>
@@ -63,10 +59,10 @@ const Project = () => {
                                 // style={{ width: "100%", height: "300px" ,opacity:0.3}}
                             />
 
-                            <h1>TODO APP</h1>
+                            <h3>TODO APP</h3>
                         </div>
                         <div class="flip-card-back">
-                            <h1>John Doe</h1>
+                            <h3>John Doe</h3>
                             <p>Architect & Engineer</p>
                             <p>We love that guy</p>
                         </div>
@@ -81,10 +77,10 @@ const Project = () => {
                                 alt="Avatar"
                                 // style={{ width: "100%", height: "300px" ,opacity:0.3}}
                             />
-                            <h1>RANDOM QUOTE GENERATOR</h1>
+                            <h3>RANDOM QUOTE GENERATOR</h3>
                         </div>
                         <div class="flip-card-back">
-                            <h1>John Doe</h1>
+                            <h3>John Doe</h3>
                             <p>Architect & Engineer</p>
                             <p>We love that guy</p>
                         </div>
@@ -99,10 +95,10 @@ const Project = () => {
                                 alt="Avatar"
                                 // style={{ width: "100%", height: "300px" ,opacity:0.3}}
                             />
-                            <h1>PORTFOLIO</h1>
+                            <h3>PORTFOLIO</h3>
                         </div>
                         <div class="flip-card-back">
-                            <h1>John Doe</h1>
+                            <h3>John Doe</h3>
                             <p>Architect & Engineer</p>
                             <p>We love that guy</p>
                         </div>
@@ -111,6 +107,8 @@ const Project = () => {
 
             </div>
         </div>
+        <hr/>
+        </>
     );
 };
 export default Project;

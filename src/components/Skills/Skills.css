@@ -6,23 +6,22 @@
     /* border:2px solid blue; */
     height: 50%;
     background-color: #4324f1;
-    padding-top:5%
+    padding-top: 5%;
 }
-.skillHeading h2{
+.skillHeading h3 {
     /* border:2px solid yellow; */
     color: white;
-    font-size: 3rem;
+    font-size: 5vw;
     font-family: "Bree Serif";
     text-align: center;
 }
-.skillHeading h5{
+.skillHeading h6 {
     /* border: 2px solid yellowgreen; */
     font-family: "Rubik";
     text-align: center;
     font-size: 1.7rem;
-    color:white;
+    color: white;
     margin-top: 1%;
-
 }
 .skillStack {
     /* border:2px solid yellow; */
@@ -63,4 +62,33 @@ i {
 }
 .fa-git-alt {
     color: #f34f29;
+}
+
+@media only screen and (max-width: 600px) {
+    .skillWrapper {
+        margin-top: 20%;
+    }
+    .skillHeading {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 8vh 0vh;
+    }
+    .skillHeading h3 {
+        color: white;
+        font-size: 8vw;
+        font-family: "Bree Serif";
+        text-align: center;
+    }
+    .skillHeading h6 {
+        width: 80%;
+        font-size: 2.5vh;
+    }
+    .container {
+        /* border:2px solid red; */
+        width: 80%;
+    }
+    i {
+        font-size: 30vw;
+    }
 }

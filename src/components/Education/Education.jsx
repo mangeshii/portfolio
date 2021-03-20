@@ -3,10 +3,11 @@ import "./Education.css";
 const Education = () => {
     return (
         <>
-            <div className="container-fluid mainz">
+            <div className="main">
                 <div class=" educationWrapper text-center" id="education">
                     <div class="container1">
-                        <div class="edu">Education</div>
+                        <div class="edu">
+                        <h3>Education</h3></div>
                         <div class="timeline">
                             <div class="timeline-text">
                                 <h2>B.TECH</h2>
@@ -33,6 +34,7 @@ const Education = () => {
                     </div>
                 </div>
             </div>
+            <hr/>
         </>
     );
 };

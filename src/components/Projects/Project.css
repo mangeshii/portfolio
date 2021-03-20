@@ -3,15 +3,16 @@
     flex-direction: column;
     height: auto;
     padding-bottom: 5%;
-    border:2px solid red
+    /* border:2px solid red */
 }
-.projectWrapper h1 {
+.projectWrapper h3 {
     text-align: center;
     margin: 5% 0%;
-    font-size: 3rem;
+    font-size: 5vw;
     font-family: "Bree Serif";
     color: #4324f1;
     font-weight: 600;
+
 }
 .projCont {
     height: auto;
@@ -146,13 +147,13 @@
     color: white;
     transform: rotateY(180deg);
 }
-.flip-card-front h1 {
+.flip-card-front h3 {
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 40px;
+    font-size: 2vw;
     z-index: 1;
     font-weight: 600;
     letter-spacing: 2px;
@@ -165,16 +166,16 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .projectWrapper h1 {
-        font-size: 2rem;
+    .projectWrapper h3 {
+        font-size: 8vw;
     }
     .projCont {
         width: 100%;
         display: flex;
         justify-content: center;
     }
-    .flip-card-front h1 {
-        font-size: 30px;
+    .flip-card-front h3{
+        font-size: 8vw;
         z-index: 1;
     }
     .frontcard {

@@ -5,8 +5,8 @@ const Skills = () => {
         <>
             <div className="skillWrapper">
                 <div className="skillHeading">
-                    <h2>Skill Stack</h2>
-                    <h5>Below is the quick overview of my main technical skills sets and tools I use</h5>
+                    <h3>Skill Stack</h3>
+                    <h6>Below is the quick overview of my main technical skills sets and tools I use</h6>
                 </div>
                 <div className="container skillStack">
                     <div className="card col-md-4 col-sm-6">
@@ -40,6 +40,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
+            <hr/>
         </>
     );
 };
