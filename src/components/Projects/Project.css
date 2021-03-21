@@ -4,22 +4,21 @@
     height: auto;
     padding-bottom: 5%;
     /* border:2px solid red; */
-    width:100%
+    width: 100%;
 }
-.projectWrapper h3 {
+.projectHeading{
     text-align: center;
     margin: 5% 0%;
-    font-size: 9vw;
+    font-size: 3.5vw;
     font-family: "Bree Serif";
     color: #4324f1;
     font-weight: 600;
-
 }
 .projCont {
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    width: 75%;
+    width: 70%;
     /* border:2px solid black */
 }
 
@@ -106,8 +105,8 @@
 }
 .flip-card {
     background-color: transparent;
-    width: 350px;
-    height: 300px;
+    width: 320px;
+    height: 265px;
     perspective: 1000px;
     margin: 20px 0px;
     border-radius: 30px;
@@ -162,62 +161,120 @@
 }
 .frontcard {
     width: 100%;
-    height: 300px;
+    height: 265px;
     opacity: 0.3;
 }
 
 @media only screen and (max-width: 450px) {
-    .projectWrapper h3 {
-        font-size: 8vw;
+    .projectHeading {
+        font-size: 10vw;
     }
     .projCont {
         width: 100%;
         display: flex;
         justify-content: center;
     }
-    .flip-card-front h3{
+    .flip-card-front h3 {
         font-size: 8vw;
         z-index: 1;
     }
     .frontcard {
         width: 100%;
-        height: 200px;
+        height: 180px;
     }
     .card1:after {
         width: 100%;
-        height: 200px;
+        height: 180px;
     }
     .card2:after {
         width: 100%;
-        height: 200px;
+        height: 180px;
     }
     .card3:after {
         width: 100%;
-        height: 200px;
+        height: 180px;
     }
     .card4:after {
         width: 100%;
-        height: 200px;
+        height: 180px;
     }
     .card5:after {
         width: 100%;
-        height: 200px;
+        height: 180px;
     }
     .flip-card {
-        height: 200px;
-        margin:10px 0px
-
+        height: 180px;
+        margin: 10px 0px;
     }
-
 }
 
-@media only screen and (max-width: 750px) {
-    .projCont{
+@media only screen and (max-width: 770px) {
+    .projCont {
         display: flex;
         justify-content: center;
     }
+    .projectHeading{
+        font-size: 5vw;
+    }
+    .projCont {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .flip-card-front h3 {
+        font-size: 8vw;
+        z-index: 1;
+    }
+    .frontcard {
+        width: 100%;
+        height: 180px;
+    }
+    .card1:after {
+        width: 100%;
+        height: 180px;
+    }
+    .card2:after {
+        width: 100%;
+        height: 180px;
+    }
+    .card3:after {
+        width: 100%;
+        height: 180px;
+    }
+    .card4:after {
+        width: 100%;
+        height: 180px;
+    }
+    .card5:after {
+        width: 100%;
+        height: 180px;
+    }
+    .flip-card {
+        height: 180px;
+        margin: 10px 0px;
+    }
+    .flip-card-front h3 {
+
+        font-size: 3.5vw;
+
+
+    }
+    .projCont {
+        width: 85%;
+    }
+    .flip-card {
+
+        margin: 10px 0px;
+    }
+    .projectHeading {
+        text-align: center;
+        margin: 5% 0%;
+        font-size: 5vw;
+
+
 }
 
-@media only screen and (max-width: 375px){
+/* @media only screen and (max-width: 375px) { */
+
 
 }

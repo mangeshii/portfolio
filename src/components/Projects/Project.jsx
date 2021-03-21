@@ -9,9 +9,9 @@ const Project = () => {
     return (
         <>
         <div className="projectWrapper container-fluid">
-            <h3>MyWork</h3>
+            <h3 className="projectHeading">MyWork</h3>
             <div className="contain projCont">
-                <div class="flip-card col-md-4 col-xs-12">
+                <div class="flip-card col-md-4 col-xs-12 col-sm-6">
                     <div class="flip-card-inner">
                         <div
                             class="flip-card-front card1"
@@ -31,7 +31,7 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div class="flip-card col-md-4 col-xs-12">
+                <div class="flip-card col-md-4 col-xs-12 col-sm-6">
                     <div class="flip-card-inner">
                         <div class="flip-card-front card2">
                             <img
@@ -49,7 +49,7 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div class="flip-card col-md-4 col-xs-12">
+                <div class="flip-card col-md-4 col-xs-12 col-sm-6">
                     <div class="flip-card-inner">
                         <div class="flip-card-front card3">
                             <img
@@ -68,7 +68,7 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div class="flip-card col-md-4 col-xs-12">
+                <div class="flip-card col-md-4 col-xs-12 col-sm-6">
                     <div class="flip-card-inner">
                         <div class="flip-card-front card4">
                             <img
@@ -86,7 +86,7 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div class="flip-card col-md-4 col-xs-12">
+                <div class="flip-card col-md-4 col-xs-12 col-sm-6">
                     <div class="flip-card-inner">
                         <div class="flip-card-front card5">
                             <img
