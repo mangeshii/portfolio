@@ -4,10 +4,11 @@ const Education = () => {
     return (
         <>
             <div className="main">
-                <div class=" educationWrapper text-center" id="education">
+                <div className=" educationWrapper text-center" id="education">
                     <div class="container1">
-                        <div class="edu">
-                        <h3>Education</h3></div>
+                        <div>
+                            <h3 className="edu">Education</h3>
+                        </div>
                         <div class="timeline">
                             <div class="timeline-text">
                                 <h2>B.TECH</h2>
@@ -34,7 +35,7 @@ const Education = () => {
                     </div>
                 </div>
             </div>
-            <hr/>
+            <hr />
         </>
     );
 };
