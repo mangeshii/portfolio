@@ -37,7 +37,6 @@ const Project = () => {
                                 className="frontcard"
                                 src={pokedex}
                                 alt="Avatar"
-                                // style={{ width: "100%", height: "300px",opacity:0.3 }}
                             />
                             <h3>POKEDEX</h3>
                         </div>
@@ -54,7 +53,6 @@ const Project = () => {
                                 className="frontcard"
                                 src={todo}
                                 alt="Avatar"
-                                // style={{ width: "100%", height: "300px" ,opacity:0.3}}
                             />
 
                             <h3>TODO APP</h3>
@@ -72,7 +70,6 @@ const Project = () => {
                                 className="frontcard"
                                 src={randomquote}
                                 alt="Avatar"
-                                // style={{ width: "100%", height: "300px" ,opacity:0.3}}
                             />
                             <h3>RANDOM QUOTE GENERATOR</h3>
                         </div>
@@ -101,7 +98,6 @@ const Project = () => {
 
             </div>
         </div>
-        {/* <hr/> */}
         </>
     );
 };

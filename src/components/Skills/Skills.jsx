@@ -8,6 +8,7 @@ const Skills = () => {
                     <h3>Skill Stack</h3>
                     <h6>Below is the quick overview of my main technical skills sets and tools I use</h6>
                 </div>
+                <div className="skillcontainer">
                 <div className="container skillStack">
                     <div className="card col-md-4 col-sm-6 col-xs-12">
                         <i class="fab fa-html5"></i>
@@ -40,7 +41,8 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-            {/* <hr/> */}
+            </div>
+            <hr style={{marginTop:'10%'}}/>
         </>
     );
 };

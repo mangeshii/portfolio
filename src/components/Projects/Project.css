@@ -10,7 +10,7 @@
     margin: 5% 0%;
     font-size: 3.5vw;
     font-family: "Kanit";
-    color: rgb(134,5,204);
+    color: rgb(112,49,125);
     font-weight: 600;
 }
 .projCont {
@@ -36,8 +36,8 @@
     ); */
     background: linear-gradient(
         to bottom,
-        rgba(151, 97, 212, 0.75),
-        rgba(112, 216, 241, 0.75)
+        rgba(252, 6, 6, 0.6),
+        rgba(253, 49, 76, 0.8)
     );
     border-radius: 30px;
 }
@@ -58,8 +58,8 @@
     ); */
     background: linear-gradient(
         to bottom,
-        rgba(151, 97, 212, 0.75),
-        rgba(112, 216, 241, 0.75)
+        rgba(65, 236, 74, 0.7),
+        rgba(75, 240, 83, 0.8)
     );
 }
 
@@ -79,8 +79,8 @@
     ); */
     background: linear-gradient(
         to bottom,
-        rgba(151, 97, 212, 0.75),
-        rgba(112, 216, 241, 0.75)
+        rgba(238, 224, 26, 0.7),
+        rgb(241, 222, 112,0.8)
     );
 }
 .card4:after {
@@ -99,8 +99,8 @@
     ); */
     background: linear-gradient(
         to bottom,
-        rgba(151, 97, 212, 0.75),
-        rgba(112, 216, 241, 0.75)
+        rgba(47, 197, 235, 0.7),
+        rgba(112, 215, 241, 0.9)
     );
 }
 .card5:after {
@@ -114,8 +114,8 @@
     border-radius: 30px;
     background: linear-gradient(
         to bottom,
-        rgba(151, 97, 212, 0.75),
-        rgba(112, 216, 241, 0.75)
+        rgba(177, 12, 241, 0.7),
+        rgb(204, 112, 241,0.8)
     );
 }
 .frontcard {
@@ -197,14 +197,14 @@ button{
     color: white;
     font-size: 1.5vw;
     z-index: 1;
-    font-weight: 600;
+    font-weight: 900;
     letter-spacing: 2px;
     width: 100%;
 }
 .frontcard {
     width: 100%;
     height: 265px;
-    opacity: 0.3;
+    /* opacity: 0.3; */
 }
 
 
@@ -224,6 +224,8 @@ button{
     .flip-card-front h3 {
         font-size: 4vw;
         z-index: 1;
+        font-weight: 600;
+
     }
     .frontcard {
         width: 100%;
@@ -293,6 +295,7 @@ button{
     .flip-card-front h3 {
         font-size: 6vw;
         z-index: 1;
+        font-weight: 600;
     }
     .frontcard {
         width: 100%;

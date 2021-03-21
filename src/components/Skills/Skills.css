@@ -1,10 +1,15 @@
 .skillWrapper {
-    height: 100vh;
+    height: auto;
+    /* border:2px solid red */
 }
 .skillHeading {
     height: 50%;
-    background-color:  rgb(134,5,204);
-    padding-top: 6%;
+    background-color: rgb(112,49,125);
+    padding: 10vh 0vh 18vh 0vh;
+}
+.skillcontainer{
+    /* border:2px solid black; */
+    /* height: auto; */
 }
 .skillHeading h3 {
     color: white;
@@ -20,12 +25,14 @@
     margin-top: 1%;
 }
 .skillStack {
-    height: fit-content;
+    height: auto;
     margin-top: -6rem;
     background-color: white;
     border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
+    /* border:2px solid red; */
+
 }
 .card {
     height: 180px;
@@ -33,7 +40,7 @@
     justify-content: center;
     align-items: center;
 }
-i {
+.card i {
     font-size: 6vw;
 }
 .fa-html5 {
@@ -64,7 +71,7 @@ i {
         display: flex;
         align-items: center;
         flex-direction: column;
-        padding: 15vh 0vh;
+        /* padding: 15vh 0vh; */
     }
     .skillHeading h3 {
         font-size: 5vw;
@@ -83,7 +90,7 @@ i {
         display: flex;
         align-items: center;
         flex-direction: column;
-        padding: 8vh 0vh;
+        padding: 10vh 0vh 18vh 0vh;
     }
     .skillHeading h3 {
         color: white;
@@ -98,7 +105,7 @@ i {
     .container {
         width: 80%;
     }
-    i {
+    .card i {
         font-size: 15vw;
     }
 }
@@ -112,7 +119,7 @@ i {
         display: flex;
         align-items: center;
         flex-direction: column;
-        padding: 8vh 0vh;
+        padding: 10vh 0vh 18vh 0vh;
     }
     .skillHeading h3 {
         font-size: 10vw;
@@ -121,7 +128,7 @@ i {
         width: 80%;
         font-size: 5vw;
     }
-    i {
+    .card i {
         font-size: 30vw;
     }
 }
