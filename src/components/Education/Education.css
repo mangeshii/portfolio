@@ -40,20 +40,20 @@
     letter-spacing: 0.5px;
     font-weight: 600;
     text-align: center;
-    font-family: "Bree Serif";
-    color: #4324f1;
+    font-family: "Kanit";
+    color:  rgb(134,5,204);
     margin-bottom: 7%;
 }
 
 .timeline-text h2 {
     font-size: 1.5rem;
     margin-top: 1rem;
-    font-family: "Rubik";
+    font-family: "Kanit";
 }
 
 .timeline-text p {
     font-size: 1rem;
-    font-family: "Rubik";
+    font-family: "Kanit";
 }
 
 @media only screen and (min-width: 750px) {
@@ -113,6 +113,12 @@
     }
 }
 
+@media only screen and (max-width: 770px) {
+    .edu {
+        font-size: 5vw;
+
+    }
+}
 @media only screen and (max-width: 450px) {
     .educationWrapper {
         margin-top: -3rem;
@@ -126,12 +132,12 @@
     }
     .timeline-text h2 {
         font-size: 1rem;
-        font-family: "Rubik";
+        font-family: "Kanit";
     }
 
     .timeline-text p {
         font-size: 0.5rem;
-        font-family: "Rubik";
+        font-family: "Kanit";
     }
 }
 @media only screen and (max-width: 375px) {

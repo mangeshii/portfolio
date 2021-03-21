@@ -3,15 +3,14 @@
     flex-direction: column;
     height: auto;
     padding-bottom: 5%;
-    /* border:2px solid red; */
     width: 100%;
 }
-.projectHeading{
+.projectHeading {
     text-align: center;
     margin: 5% 0%;
     font-size: 3.5vw;
-    font-family: "Bree Serif";
-    color: #4324f1;
+    font-family: "Kanit";
+    color: rgb(134,5,204);
     font-weight: 600;
 }
 .projCont {
@@ -19,7 +18,6 @@
     display: flex;
     flex-wrap: wrap;
     width: 70%;
-    /* border:2px solid black */
 }
 
 .card1:after {
@@ -31,10 +29,15 @@
     height: 100%;
     display: inline-block;
 
-    background: linear-gradient(
+    /* background: linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.75)
+    ); */
+    background: linear-gradient(
+        to bottom,
+        rgba(151, 97, 212, 0.75),
+        rgba(112, 216, 241, 0.75)
     );
     border-radius: 30px;
 }
@@ -48,10 +51,15 @@
     display: inline-block;
     border-radius: 30px;
 
-    background: linear-gradient(
+    /* background: linear-gradient(
         to bottom,
         rgba(225, 226, 230, 0.75),
         rgba(63, 25, 63, 0.75)
+    ); */
+    background: linear-gradient(
+        to bottom,
+        rgba(151, 97, 212, 0.75),
+        rgba(112, 216, 241, 0.75)
     );
 }
 
@@ -64,10 +72,15 @@
     height: 100%;
     display: inline-block;
     border-radius: 30px;
-    background: linear-gradient(
+    /* background: linear-gradient(
         to bottom,
         rgba(124, 248, 100, 0.75),
         rgba(249, 250, 181, 0.75)
+    ); */
+    background: linear-gradient(
+        to bottom,
+        rgba(151, 97, 212, 0.75),
+        rgba(112, 216, 241, 0.75)
     );
 }
 .card4:after {
@@ -79,10 +92,15 @@
     height: 100%;
     display: inline-block;
     border-radius: 30px;
-    background: linear-gradient(
+    /* background: linear-gradient(
         to bottom,
         rgba(95, 22, 62, 0.75),
         rgba(177, 73, 130, 0.75)
+    ); */
+    background: linear-gradient(
+        to bottom,
+        rgba(151, 97, 212, 0.75),
+        rgba(112, 216, 241, 0.75)
     );
 }
 .card5:after {
@@ -110,6 +128,7 @@
     perspective: 1000px;
     margin: 20px 0px;
     border-radius: 30px;
+
 }
 
 .flip-card-inner {
@@ -140,12 +159,35 @@
 .flip-card-front {
     background-color: #bbb;
     color: black;
+
 }
 
 .flip-card-back {
-    background-color: #2980b9;
+    background-color: #39464e;
     color: white;
     transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    text-align:center;
+    flex-direction: column;
+    justify-content: space-evenly
+
+
+
+}
+.flip-card-back p{
+    text-align: center;
+    padding: 0px 3%;
+    font-size: 1vw;
+    font-family: "Kanit";
+}
+button{
+    text-align: center;
+    width:fit-content;
+    height:20%;
+    width:45%;
+    border-radius: 50px;
+    font-family: "Kanit";
 }
 .flip-card-front h3 {
     position: absolute;
@@ -153,7 +195,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 2vw;
+    font-size: 1.5vw;
     z-index: 1;
     font-weight: 600;
     letter-spacing: 2px;
@@ -165,6 +207,80 @@
     opacity: 0.3;
 }
 
+
+@media only screen and (max-width: 770px) {
+    .projCont {
+        display: flex;
+        justify-content: center;
+    }
+    .projectHeading {
+        font-size: 5vw;
+    }
+    .projCont {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .flip-card-front h3 {
+        font-size: 4vw;
+        z-index: 1;
+    }
+    .frontcard {
+        width: 100%;
+        height: 180px;
+    }
+    .card1:after {
+        width: 100%;
+        height: 180px;
+    }
+    .card2:after {
+        width: 100%;
+        height: 180px;
+    }
+    .card3:after {
+        width: 100%;
+        height: 180px;
+    }
+    .card4:after {
+        width: 100%;
+        height: 180px;
+    }
+    .card5:after {
+        width: 100%;
+        height: 180px;
+    }
+    .flip-card {
+        height: 180px;
+        margin: 10px 0px;
+    }
+
+    .projCont {
+        width: 85%;
+    }
+    .flip-card {
+        margin: 10px 0px;
+    }
+    .flip-card-back p{
+        text-align: center;
+        padding: 0px 3%;
+        font-size: 2.5vw;
+        font-family: "Kanit";
+    }
+    button{
+        text-align: center;
+        width:fit-content;
+        height:20%;
+        width:45%;
+        border-radius: 50px;
+        font-size: 15px;
+        font-family: "Kanit";
+    }
+    /* .projectHeading {
+        text-align: center;
+        margin: 5% 0%;
+        font-size: 5vw;
+    } */
+}
 @media only screen and (max-width: 450px) {
     .projectHeading {
         font-size: 10vw;
@@ -175,7 +291,7 @@
         justify-content: center;
     }
     .flip-card-front h3 {
-        font-size: 8vw;
+        font-size: 6vw;
         z-index: 1;
     }
     .frontcard {
@@ -206,75 +322,43 @@
         height: 180px;
         margin: 10px 0px;
     }
-}
-
-@media only screen and (max-width: 770px) {
-    .projCont {
-        display: flex;
-        justify-content: center;
-    }
-    .projectHeading{
-        font-size: 5vw;
-    }
-    .projCont {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    .flip-card-front h3 {
-        font-size: 8vw;
-        z-index: 1;
-    }
-    .frontcard {
-        width: 100%;
-        height: 180px;
-    }
-    .card1:after {
-        width: 100%;
-        height: 180px;
-    }
-    .card2:after {
-        width: 100%;
-        height: 180px;
-    }
-    .card3:after {
-        width: 100%;
-        height: 180px;
-    }
-    .card4:after {
-        width: 100%;
-        height: 180px;
-    }
-    .card5:after {
-        width: 100%;
-        height: 180px;
-    }
-    .flip-card {
-        height: 180px;
-        margin: 10px 0px;
-    }
-    .flip-card-front h3 {
-
-        font-size: 3.5vw;
-
-
-    }
-    .projCont {
-        width: 85%;
-    }
-    .flip-card {
-
-        margin: 10px 0px;
-    }
-    .projectHeading {
+    .flip-card-back p{
         text-align: center;
-        margin: 5% 0%;
-        font-size: 5vw;
-
-
+        padding: 0px 3%;
+        font-size: 3.5vw;
+        font-family: "Kanit";
+    }
+    button{
+        text-align: center;
+        width:fit-content;
+        height:20%;
+        width:45%;
+        border-radius: 50px;
+        font-size: 15px;
+        font-family: "Kanit";
+    }
 }
 
-/* @media only screen and (max-width: 375px) { */
-
-
+@media only screen and (max-width: 377px){
+    .projectHeading{
+        font-size: 10vw;
+    }
+    .flip-card-front h3{
+        font-size: 7vw;
+    }
+    .flip-card-back p{
+        text-align: center;
+        padding: 0px 3%;
+        font-size: 3.5vw;
+        font-family: "Kanit";
+    }
+    button{
+        text-align: center;
+        width:fit-content;
+        height:20%;
+        width:45%;
+        border-radius: 50px;
+        font-size: 15px;
+        font-family: "Kanit";
+    }
 }

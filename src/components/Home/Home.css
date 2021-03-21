@@ -47,7 +47,7 @@ nav {
 .aboutme h3 {
     font-weight: 900;
     font-family: "Bree Serif";
-    color: #4324f1;
+    color:rgb(134,5,204);
     font-size: 5vw;
     letter-spacing: 1px;
 }
@@ -76,7 +76,7 @@ nav {
     .aboutme h3 {
         font-weight: 900;
         font-family: "Bree Serif";
-        color: #4324f1;
+        /* color: #4324f1; */
         font-size: 8vw;
         letter-spacing: 1px;
     }

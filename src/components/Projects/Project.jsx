@@ -25,9 +25,8 @@ const Project = () => {
                             <h3>WEATHER APP</h3>
                         </div>
                         <div class="flip-card-back">
-                            <h3>John Doe</h3>
-                            <p>Architect & Engineer</p>
-                            <p>We love that guy</p>
+                            <p>A Weather App is capable of pulling weather information such as temperature, weather description, city and country name from the API.</p>
+                            <button>See on Github</button>
                         </div>
                     </div>
                 </div>
@@ -43,9 +42,8 @@ const Project = () => {
                             <h3>POKEDEX</h3>
                         </div>
                         <div class="flip-card-back">
-                            <h3>John Doe</h3>
-                            <p>Architect & Engineer</p>
-                            <p>We love that guy</p>
+                            <p>It consists of all the pokemon data which is fetched from API. Once you click in a particular pokemon card it with render a page will more information about that pokemon </p>
+                            <button>See on Github</button>
                         </div>
                     </div>
                 </div>
@@ -61,10 +59,9 @@ const Project = () => {
 
                             <h3>TODO APP</h3>
                         </div>
-                        <div class="flip-card-back">
-                            <h3>John Doe</h3>
-                            <p>Architect & Engineer</p>
-                            <p>We love that guy</p>
+                        <div className="flip-card-back">
+                           <p>A Todo App is designed which has the capability to add, delete and mark as complete</p>
+                           <button>See on Github</button>
                         </div>
                     </div>
                 </div>
@@ -79,10 +76,9 @@ const Project = () => {
                             />
                             <h3>RANDOM QUOTE GENERATOR</h3>
                         </div>
-                        <div class="flip-card-back">
-                            <h3>John Doe</h3>
-                            <p>Architect & Engineer</p>
-                            <p>We love that guy</p>
+                        <div className="flip-card-back">
+                            <p>A Random Quote Generator is capable of pulling quotes randomly from an API. It is also capable of tweeting one of the random quote to the twitter</p>
+                            <button>See on Github</button>
                         </div>
                     </div>
                 </div>
@@ -97,16 +93,15 @@ const Project = () => {
                             <h3>PORTFOLIO</h3>
                         </div>
                         <div class="flip-card-back">
-                            <h3>John Doe</h3>
-                            <p>Architect & Engineer</p>
-                            <p>We love that guy</p>
+                            <p>It is a responsive website made with the help of html, css, react and bootstrap</p>
+                            <button>See on Github</button>
                         </div>
                     </div>
                 </div>
 
             </div>
         </div>
-        <hr/>
+        {/* <hr/> */}
         </>
     );
 };

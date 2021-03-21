@@ -1,29 +1,25 @@
 .skillWrapper {
-    /* border: 2px solid red; */
     height: 100vh;
 }
 .skillHeading {
     height: 50%;
-    background-color: #4324f1;
+    background-color:  rgb(134,5,204);
     padding-top: 6%;
 }
 .skillHeading h3 {
-    /* border:2px solid yellow; */
     color: white;
     font-size: 3.5vw;
-    font-family: "Bree Serif";
+    font-family: "Kanit";
     text-align: center;
 }
 .skillHeading h6 {
-    /* border: 2px solid yellowgreen; */
-    font-family: "Rubik";
+    font-family: "Kanit";
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.5vw;
     color: white;
     margin-top: 1%;
 }
 .skillStack {
-    /* border:2px solid yellow; */
     height: fit-content;
     margin-top: -6rem;
     background-color: white;
@@ -63,6 +59,22 @@ i {
     color: #f34f29;
 }
 
+@media screen and (max-width: 900px) and (min-width: 750px) {
+    .skillHeading {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 15vh 0vh;
+    }
+    .skillHeading h3 {
+        font-size: 5vw;
+    }
+    .skillHeading h6 {
+        width: 80%;
+        font-size: 3vw;
+    }
+}
+
 @media only screen and (max-width: 750px) {
     .skillWrapper {
         margin-top: 20%;
@@ -76,7 +88,7 @@ i {
     .skillHeading h3 {
         color: white;
         font-size: 5vw;
-        font-family: "Bree Serif";
+        font-family: "Kanit";
         text-align: center;
     }
     .skillHeading h6 {
@@ -90,20 +102,9 @@ i {
         font-size: 15vw;
     }
 }
-@media screen and (max-width: 900px) and (min-width: 750px) {
-    .skillHeading {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding: 15vh 0vh;
-    }
+@media only screen and (max-width: 450px) {
     .skillHeading h3 {
-        font-size: 5vw;
-
-    }
-    .skillHeading h6 {
-        width: 80%;
-        font-size: 3vw;
+        font-size: 10vw;
     }
 }
 @media only screen and (max-width: 375px) {
@@ -114,15 +115,13 @@ i {
         padding: 8vh 0vh;
     }
     .skillHeading h3 {
-        font-size:10vw;
-
+        font-size: 10vw;
     }
     .skillHeading h6 {
         width: 80%;
         font-size: 5vw;
     }
-    i{
+    i {
         font-size: 30vw;
     }
 }
-
