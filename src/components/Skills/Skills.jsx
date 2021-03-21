@@ -40,7 +40,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-            <hr/>
+            {/* <hr/> */}
         </>
     );
 };

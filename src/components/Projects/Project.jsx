@@ -93,7 +93,6 @@ const Project = () => {
                                 className="frontcard"
                                 src={portfolio}
                                 alt="Avatar"
-                                // style={{ width: "100%", height: "300px" ,opacity:0.3}}
                             />
                             <h3>PORTFOLIO</h3>
                         </div>

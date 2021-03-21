@@ -6,12 +6,12 @@
     /* border:2px solid blue; */
     height: 50%;
     background-color: #4324f1;
-    padding-top: 5%;
+    padding-top: 8%;
 }
 .skillHeading h3 {
     /* border:2px solid yellow; */
     color: white;
-    font-size: 5vw;
+    font-size: 9vw;
     font-family: "Bree Serif";
     text-align: center;
 }
@@ -64,7 +64,7 @@ i {
     color: #f34f29;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
     .skillWrapper {
         margin-top: 20%;
     }
@@ -76,7 +76,7 @@ i {
     }
     .skillHeading h3 {
         color: white;
-        font-size: 8vw;
+        font-size: 9vw;
         font-family: "Bree Serif";
         text-align: center;
     }
@@ -92,3 +92,6 @@ i {
         font-size: 30vw;
     }
 }
+@media only screen and (max-width: 375px){}
+
+@media only screen and (max-width: 450px){}

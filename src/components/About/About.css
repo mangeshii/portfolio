@@ -42,7 +42,7 @@
         margin-top: 3vh;
     }
     .aboutcontent h3{
-        font-size: 8vw;
+        font-size: 9vw;
         margin-bottom: 5%;
 
     }
@@ -52,8 +52,10 @@
 
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 450px){
     .aboutcontent{
         margin-top: 8vh;
     }
 }
+
+@media only screen and (max-width: 375px){}

@@ -3,12 +3,13 @@
     flex-direction: column;
     height: auto;
     padding-bottom: 5%;
-    /* border:2px solid red */
+    border:2px solid red;
+    width:100%
 }
 .projectWrapper h3 {
     text-align: center;
     margin: 5% 0%;
-    font-size: 5vw;
+    font-size: 9vw;
     font-family: "Bree Serif";
     color: #4324f1;
     font-weight: 600;
@@ -19,7 +20,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 75%;
-    /* border:2px solid black */
+    border:2px solid black
 }
 
 .card1:after {
@@ -165,7 +166,7 @@
     opacity: 0.3;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 450px) {
     .projectWrapper h3 {
         font-size: 8vw;
     }
@@ -207,5 +208,16 @@
         margin:10px 0px
 
     }
+
+}
+
+@media only screen and (max-width: 750px) {
+    .projCont{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 375px){
 
 }
