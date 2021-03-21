@@ -41,7 +41,6 @@
     font-weight: 600;
     text-align: center;
     font-family: "Kanit";
-    color: rgb(112,49,125);
     margin-bottom: 7%;
 }
 
@@ -63,8 +62,7 @@
         height: 100%;
         width: 4px;
         left: 50%;
-        /* background-color: #3b444b; */
-        background-color: rgb(112,49,125);
+        background-color: rgb(112, 49, 125);
         transform: translateX((-50%));
     }
 
@@ -116,7 +114,6 @@
 @media only screen and (max-width: 770px) {
     .edu {
         font-size: 5vw;
-
     }
 }
 @media only screen and (max-width: 450px) {
