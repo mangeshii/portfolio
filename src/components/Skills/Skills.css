@@ -3,15 +3,14 @@
     height: 100vh;
 }
 .skillHeading {
-    /* border:2px solid blue; */
     height: 50%;
     background-color: #4324f1;
-    padding-top: 8%;
+    padding-top: 6%;
 }
 .skillHeading h3 {
     /* border:2px solid yellow; */
     color: white;
-    font-size: 9vw;
+    font-size: 3.5vw;
     font-family: "Bree Serif";
     text-align: center;
 }
@@ -76,7 +75,7 @@ i {
     }
     .skillHeading h3 {
         color: white;
-        font-size: 9vw;
+        font-size: 5vw;
         font-family: "Bree Serif";
         text-align: center;
     }
@@ -85,13 +84,45 @@ i {
         font-size: 2.5vh;
     }
     .container {
-        /* border:2px solid red; */
         width: 80%;
     }
     i {
+        font-size: 15vw;
+    }
+}
+@media screen and (max-width: 900px) and (min-width: 750px) {
+    .skillHeading {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 15vh 0vh;
+    }
+    .skillHeading h3 {
+        font-size: 5vw;
+
+    }
+    .skillHeading h6 {
+        width: 80%;
+        font-size: 3vw;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .skillHeading {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 8vh 0vh;
+    }
+    .skillHeading h3 {
+        font-size:10vw;
+
+    }
+    .skillHeading h6 {
+        width: 80%;
+        font-size: 5vw;
+    }
+    i{
         font-size: 30vw;
     }
 }
-@media only screen and (max-width: 375px){}
 
-@media only screen and (max-width: 450px){}
