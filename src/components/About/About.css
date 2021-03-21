@@ -12,50 +12,52 @@
     text-align: center;
     display: flex;
     justify-content: center;
-    /* border:2px solid red */
 }
 .aboutcontent {
     width: 60%;
-    margin-top:4%;
-    /* border:2px solid hotpink; */
-    height:fit-content
-
+    margin-top: 4%;
+    height: fit-content;
 }
 .aboutcontent h3 {
     color: white;
     font-size: 5vw;
-    font-family: "Bree Serif";;
+    font-family: "Bree Serif";
     margin-bottom: 3%;
-    /* border:2px solid black; */
-    /* margin-bottom: 5%; */
 }
-.aboutcontent h6{
+.aboutcontent h6 {
     font-size: 3vh;
     font-family: "Rubik";
 }
 
-
 @media only screen and (max-width: 768px) {
-
-    .aboutcontent{
-        width:90%;
-        margin-top: 3vh;
+    .aboutcontent {
+        width: 80%;
+        margin-top: 10vw;
     }
-    .aboutcontent h3{
-        font-size: 9vw;
+
+    .aboutcontent h3 {
+        font-size: 8vw;
         margin-bottom: 5%;
-
     }
-    .aboutcontent h6{
-        font-size: 2.5vh;
-    }
-
-}
-
-@media only screen and (max-width: 450px){
-    .aboutcontent{
-        margin-top: 8vh;
+    .aboutcontent h6 {
+        font-size: 3vw;
     }
 }
 
-@media only screen and (max-width: 375px){}
+@media only screen and (max-width: 450px) {
+    .aboutcontent h6 {
+        font-size: 4.5vw;
+    }
+    .aboutcontent h3 {
+        font-size: 10vw;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .aboutcontent h6 {
+        font-size: 5vw;
+    }
+    .aboutcontent h3 {
+        font-size: 10vw;
+    }
+}
