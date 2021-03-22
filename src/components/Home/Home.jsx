@@ -6,11 +6,7 @@ const Home = () => {
     return (
         <>
             <div className="wrapper">
-                <nav className="navbar sticky-top navbar-light bg-light">
-                    {/* <a className="navbar-brand" href="#">
-                        <ul></ul>
-                    </a> */}
-                </nav>
+
                 <div className="container-fluid">
                     <div className="cont">
                         <div className="row">

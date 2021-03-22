@@ -8,7 +8,7 @@
 .projectHeading {
     text-align: center;
     margin: 5% 0%;
-    font-size: 3.5vw;
+    font-size: 3vw;
     font-family: "Kanit";
     font-weight: 600;
 }
@@ -30,8 +30,8 @@
 
     background: linear-gradient(
         to bottom,
-        rgba(252, 6, 6, 0.6),
-        rgba(253, 49, 76, 0.8)
+        rgba(240, 102, 10, 0.883),
+        rgba(240, 102, 10, 0.883)
     );
     border-radius: 30px;
 }
@@ -46,8 +46,8 @@
     border-radius: 30px;
     background: linear-gradient(
         to bottom,
-        rgba(65, 236, 74, 0.7),
-        rgba(75, 240, 83, 0.8)
+        rgba(46, 97, 49, 0.7),
+        rgba(47, 97, 50, 0.8)
     );
 }
 
@@ -62,8 +62,8 @@
     border-radius: 30px;
     background: linear-gradient(
         to bottom,
-        rgba(238, 224, 26, 0.7),
-        rgb(241, 222, 112, 0.8)
+        rgba(75, 74, 71, 0.7),
+        rgba(68, 67, 62, 0.8)
     );
 }
 .card4:after {
@@ -75,10 +75,15 @@
     height: 100%;
     display: inline-block;
     border-radius: 30px;
-    background: linear-gradient(
+    /* background: linear-gradient(
         to bottom,
         rgba(47, 197, 235, 0.7),
         rgba(112, 215, 241, 0.9)
+    ); */
+    background: linear-gradient(
+        to bottom,
+        rgba(27, 50, 133, 0.7),
+        rgba(26, 51, 105, 0.8)
     );
 }
 .card5:after {
@@ -92,37 +97,33 @@
     border-radius: 30px;
     background: linear-gradient(
         to bottom,
-        rgba(177, 12, 241, 0.7),
-        rgb(204, 112, 241, 0.8)
+        rgba(19, 158, 238, 0.7),
+        rgba(10, 169, 218, 0.8)
     );
 }
-.card6{
-    background: linear-gradient(
-        to bottom,
-        rgba(237, 227, 241, 0.7),
-        rgba(197, 187, 201, 0.8)
-    );
-    height:100%;
+.card6 {
+    background: linear-gradient(to top left, #7550a6 0%, #4169e1 100%);
+    height: 100%;
     border-radius: 30px;
-
 }
-.innercard6{
+.innercard6 {
     display: flex;
     justify-content: center;
-    height:100%;
+    height: 100%;
     align-items: center;
-
 }
-.btn{
-    /* border:2px solid red; */
+.btn {
     border: 2px solid rgb(110, 25, 248);
     border-radius: 30px;
-    width:fit-content
-
+    width: fit-content;
+    color: white;
+}
+.btn:hover {
+    background-color: rgb(110, 25, 248);
+    color: white;
 }
 .frontcard {
     border-radius: 30px;
-
 }
 .flip-card {
     background-color: transparent;
@@ -164,7 +165,7 @@
 }
 
 .flip-card-back {
-    background-color: #39464e;
+    background-color: #211f3b;
     color: white;
     transform: rotateY(180deg);
     display: flex;
@@ -179,20 +180,26 @@
     font-size: 1vw;
     font-family: "Kanit";
 }
- a{
+a {
     text-align: center;
     width: fit-content;
     height: 20%;
     width: fit-content;
     border-radius: 50px;
     font-family: "Kanit";
-
 }
-button{
-    border:2px solid red;
-    width:fit-content;
-    padding:10px 20px;
-    border:'30px';
+button {
+    /* border:2px solid red; */
+    height: 3vw;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+    border: 2px solid rgb(110, 25, 248);
+}
+button:hover {
+    background-color: rgb(110, 25, 248);
 }
 .flip-card-front h3 {
     position: absolute;

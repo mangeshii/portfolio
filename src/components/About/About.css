@@ -18,13 +18,14 @@
 }
 .aboutcontent h3 {
     color: white;
-    font-size: 3.5vw;
+    font-size: 3vw;
     font-family: "Kanit";
     margin-bottom: 3%;
 }
 .aboutcontent h6 {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     font-family: "Kanit";
+
 }
 
 @media only screen and (max-width: 768px) {

@@ -42,7 +42,9 @@
     letter-spacing: 1px;
 }
 .aboutme h6 {
-    font-size: 2.5vw;
+    font-size: 2vw;
+    color:#656565;
+    letter-spacing: 0px;
 }
 
 @media only screen and (max-width: 767px) {

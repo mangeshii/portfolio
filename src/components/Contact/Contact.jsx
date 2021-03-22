@@ -14,10 +14,10 @@ const Contact = () => {
                    <a href="https://twitter.com/mangeshi_patil"><i class="fab fabicon fa-twitter"></i></a>
                 </div>
                 <div className="footerContent">
-                <h5>Build with ♥️ Mangeshi </h5>
+                <h5>Build with ♥️ by Mangeshi </h5>
                 </div>
                 <div className="quote" style={{display:'flex',justifyContent:'center'}}>
-                    <h5 style={{width:'80%',textAlign:'center'}}>Living, Learning and Leveling up one day at a time</h5>
+                    <h5 style={{width:'80%',textAlign:'center',color:'#656565'}}>Living, Learning and Leveling up one day at a time</h5>
                 </div>
             </div>
             </div>
