@@ -23,8 +23,8 @@
     align-items: center;
 }
 .avtarimg {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
 }
 .aboutme {
@@ -38,11 +38,11 @@
     font-weight: 900;
     font-family: "Bree Serif";
     color: rgb(110, 25, 248);
-    font-size: 5vw;
+    font-size: 4vw;
     letter-spacing: 1px;
 }
 .aboutme h6 {
-    font-size: 2vw;
+    font-size: 1.8vw;
     color:#656565;
     letter-spacing: 0px;
 }
