@@ -71,7 +71,7 @@ const Project = () => {
                                     capability to add, delete and mark as
                                     complete
                                 </p>
-                                <a href=""><button>See on Github</button></a>
+                                <a href="https://github.com/mangeshii/todo-list"><button>See on Github</button></a>
                             </div>
                         </div>
                     </div>
