@@ -304,7 +304,7 @@ button:hover {
 }
 @media only screen and (max-width: 450px) {
     .projectHeading {
-        font-size: 10vw;
+        font-size: 35px;
     }
     .projCont {
         width: 100%;
