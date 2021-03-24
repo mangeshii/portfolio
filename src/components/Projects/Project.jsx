@@ -4,12 +4,13 @@ import weatherapp from "../../images/weather_app.png";
 import todo from "../../images/todo.png";
 import randomquote from "../../images/random_quote.png";
 import portfolio from "../../images/portfolio.png";
+import Skills from "../Skills/Skills"
 
 const Project = () => {
     return (
         <>
             <div className="projectWrapper container-fluid">
-                <h3 className="projectHeading">MyWork</h3>
+                <h1 className="projectHeading">MyWork</h1>
                 <div className="contain projCont">
                     <div class="flip-card col-md-4 col-xs-12 col-sm-6">
                         <div class="flip-card-inner">
@@ -125,6 +126,7 @@ const Project = () => {
                     </div>
                 </div>
             </div>
+            <Skills/>
         </>
     );
 };

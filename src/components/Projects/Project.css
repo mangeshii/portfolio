@@ -8,7 +8,6 @@
 .projectHeading {
     text-align: center;
     margin: 5% 0%;
-    font-size: 3vw;
     font-family: "Kanit";
     font-weight: 600;
 }
@@ -223,7 +222,7 @@ button:hover {
         justify-content: center;
     }
     .projectHeading {
-        font-size: 5vw;
+        font-size:50px;
     }
     .projCont {
         width: 100%;
@@ -273,7 +272,7 @@ button:hover {
     .flip-card-back p {
         text-align: center;
         padding: 0px 3%;
-        font-size: 2.5vw;
+        font-size: 13px;
         font-family: "Kanit";
     }
     button {
@@ -296,6 +295,11 @@ button:hover {
         width: fit-content;
         color: white;
         height:50px
+    }
+}
+@media only screen and (max-width: 700px){
+    .projectHeading{
+        font-size: 35px;
     }
 }
 @media only screen and (max-width: 450px) {
