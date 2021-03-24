@@ -6,7 +6,7 @@ const Contact = () => {
             <div className="contactWrapper">
                 <div className="footer">
                 <div className="contactHeading">
-                    <h3>LET'S CONNECT</h3>
+                    <h1>Let's Connect</h1>
                 </div>
                 <div className="contactIcons">
                    <a href="https://www.linkedin.com/in/mangeshipatil/"> <i class="fab  fabicon fa-linkedin-in"></i></a>

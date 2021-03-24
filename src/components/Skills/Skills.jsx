@@ -1,4 +1,5 @@
 import "./Skills.css";
+import Contact from "../Contact/Contact"
 
 const Skills = () => {
     return (
@@ -45,6 +46,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
+                <Contact/>
                 </div>
             </section>
         </>
