@@ -41,6 +41,9 @@
     margin: 0px 40px;
     color: rgb(110, 25, 248);
 }
+.fabicon:hover{
+    color:rgb(138, 32, 236)
+}
 .footerContent {
     text-align: center;
     margin-top: 0%;
@@ -54,10 +57,18 @@
         font-size: 9vw;
         color: rgb(110, 25, 248);
     }
+    .contactHeading h1{
+        font-weight: 600;
+        font-size: 45px;
+    }
 }
 @media only screen and (max-width: 500px) {
     .fabicon {
         font-size: 12vw;
+    }
+    .contactHeading h1{
+        font-weight: 600;
+        font-size: 35px;
     }
 }
 @media only screen and (max-width: 375px) {
@@ -66,9 +77,9 @@
         margin: 0px 20px;
         color: rgb(110, 25, 248);
     }
-    .contactHeading h3 {
+    .contactHeading h1{
         font-weight: 600;
-        font-size: 7vw;
+        font-size: 29px;
     }
     .quote h5 {
         font-size: 5.5vw;

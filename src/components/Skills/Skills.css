@@ -35,6 +35,7 @@ p {
     background-color: white;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {

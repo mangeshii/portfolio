@@ -24,6 +24,10 @@ const Home = () => {
                                     I design and develop responsive, optimized
                                     and efficient websites.
                                 </h6>
+                                <div className="buttons">
+                                    <button className="contactmebtn">Contact Me</button>
+                                    <button className="resumebtn">My Resume</button>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -8,6 +8,7 @@
 .projectHeading {
     text-align: center;
     margin: 5% 0%;
+    font-size: 3vw;
     font-family: "Kanit";
     font-weight: 600;
 }
@@ -187,7 +188,7 @@ a {
     border-radius: 50px;
     font-family: "Kanit";
 }
-button {
+.gitbutton {
     height: 3vw;
     width: fit-content;
     padding: 10px 20px;
@@ -196,7 +197,7 @@ button {
     color: white;
     border: 2px solid rgb(110, 25, 248);
 }
-button:hover {
+.gitbutton:hover {
     background-color: rgb(110, 25, 248);
 }
 .flip-card-front h3 {
@@ -222,7 +223,7 @@ button:hover {
         justify-content: center;
     }
     .projectHeading {
-        font-size:50px;
+        font-size: 5vw;
     }
     .projCont {
         width: 100%;
@@ -272,10 +273,10 @@ button:hover {
     .flip-card-back p {
         text-align: center;
         padding: 0px 3%;
-        font-size: 13px;
+        font-size: 2.5vw;
         font-family: "Kanit";
     }
-    button {
+    .gitbutton {
         text-align: center;
         width: fit-content;
         height: 70%;
@@ -297,14 +298,9 @@ button:hover {
         height:50px
     }
 }
-@media only screen and (max-width: 700px){
-    .projectHeading{
-        font-size: 35px;
-    }
-}
 @media only screen and (max-width: 450px) {
     .projectHeading {
-        font-size: 35px;
+        font-size: 10vw;
     }
     .projCont {
         width: 100%;
@@ -350,7 +346,7 @@ button:hover {
         font-size: 3.5vw;
         font-family: "Kanit";
     }
-    button {
+    .gitbutton {
         text-align: center;
         width: fit-content;
         height: 70%;
@@ -385,7 +381,7 @@ button:hover {
         font-size: 3.5vw;
         font-family: "Kanit";
     }
-    button {
+    .gitbutton {
         text-align: center;
         width: fit-content;
         height: 20%;
@@ -409,7 +405,7 @@ button:hover {
         color: white;
         height:50px
     }
-    button {
+    .gitbutton {
         text-align: center;
         width: fit-content;
         height: 70%;

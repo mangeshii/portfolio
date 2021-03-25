@@ -4,11 +4,12 @@
 }
 
 .container-fluid {
-    height: 90vh;
+    height: 100vh;
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border:5px solid red */
 }
 .cont {
     height: 100%;
@@ -27,13 +28,45 @@
     width: 250px;
     border-radius: 50%;
 }
+.buttons{
+    margin-top:20px;
+}
+.contactmebtn{
+    text-align: center;
+    height:60px;
+    width:170px;
+    border-radius: 50px;
+    background-color: transparent;
+    border:2px solid rgb(110, 25, 248);
+    font-size: 22px;
+ }
+ .contactmebtn:hover{
+     background-color: rgb(110, 25, 248);
+     color:white
+ }
+ .resumebtn{
+     margin:0px 20px;
+    text-align: center;
+    height:60px;
+    width:170px;
+    border-radius: 50px;
+    background-color: transparent;
+    border:2px solid rgb(110, 25, 248);
+    font-size: 22px;
+ }
+ .resumebtn:hover{
+    background-color: rgb(110, 25, 248);
+    color:white
+}
 .aboutme {
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-family: "Rubik";
     padding: 20px;
+
 }
+
 .aboutme h3 {
     font-weight: 900;
     font-family: "Bree Serif";
@@ -84,6 +117,27 @@
         height: 35%;
         width: 35%;
     }
+    .contactmebtn{
+        /* margin:0px 20px; */
+        text-align: center;
+        height:50px;
+        width:150px;
+        border-radius: 50px;
+        background-color: transparent;
+        border:2px solid rgb(110, 25, 248);
+        font-size: 18px;
+     }
+     .resumebtn{
+        margin:0px 15px;
+       text-align: center;
+       height:50px;
+       width:150px;
+       border-radius: 50px;
+       background-color: transparent;
+       border:2px solid rgb(110, 25, 248);
+       font-size: 18px;
+    }
+
 }
 
 @media only screen and (max-width: 450px) {
@@ -107,4 +161,25 @@
         height: 200px;
         width: 200px;
     }
+    .contactmebtn{
+        margin:0px 10px;
+        text-align: center;
+        height:40px;
+        width:110px;
+        border-radius: 50px;
+        background-color: transparent;
+        border:2px solid rgb(110, 25, 248);
+        font-size: 15px;
+     }
+     .resumebtn{
+        margin:0px 10px;
+       text-align: center;
+       height:40px;
+       width:110px;
+       border-radius: 50px;
+       background-color: transparent;
+       border:2px solid rgb(110, 25, 248);
+       font-size: 15px;
+    }
+
 }
