@@ -25,8 +25,8 @@ const Home = () => {
                                     and efficient websites.
                                 </h6>
                                 <div className="buttons">
-                                    <button className="contactmebtn">Contact Me</button>
-                                    <button className="resumebtn">My Resume</button>
+                                    <a href="#contact"><button className="contactmebtn">Contact Me</button></a>
+                                    <a href="https://drive.google.com/file/d/1gMp6VlUAfziPd2LU86oEaY6N_QhdopIX/view?usp=sharing" rel="noreferrer" target="_blank"><button className="resumebtn">My Resume</button></a>
                                 </div>
                             </div>
                         </div>
