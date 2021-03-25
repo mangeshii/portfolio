@@ -1,15 +1,25 @@
 .wrapper {
     height: 100vh;
     width: 99vw;
+    min-height: 100vh;
+    /* border: 2px solid blue; */
 }
-
+.nav-link {
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 10px 20px;
+}
 .container-fluid {
     height: 100vh;
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border:5px solid red */
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .cont {
     height: 100%;
@@ -28,35 +38,35 @@
     width: 250px;
     border-radius: 50%;
 }
-.buttons{
-    margin-top:20px;
+.buttons {
+    margin-top: 20px;
 }
-.contactmebtn{
+.contactmebtn {
     text-align: center;
-    height:60px;
-    width:170px;
+    height: 60px;
+    width: 170px;
     border-radius: 50px;
     background-color: transparent;
-    border:2px solid rgb(110, 25, 248);
+    border: 2px solid rgb(110, 25, 248);
     font-size: 22px;
- }
- .contactmebtn:hover{
-     background-color: rgb(110, 25, 248);
-     color:white
- }
- .resumebtn{
-     margin:0px 20px;
-    text-align: center;
-    height:60px;
-    width:170px;
-    border-radius: 50px;
-    background-color: transparent;
-    border:2px solid rgb(110, 25, 248);
-    font-size: 22px;
- }
- .resumebtn:hover{
+}
+.contactmebtn:hover {
     background-color: rgb(110, 25, 248);
-    color:white
+    color: white;
+}
+.resumebtn {
+    margin: 0px 20px;
+    text-align: center;
+    height: 60px;
+    width: 170px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid rgb(110, 25, 248);
+    font-size: 22px;
+}
+.resumebtn:hover {
+    background-color: rgb(110, 25, 248);
+    color: white;
 }
 .aboutme {
     display: flex;
@@ -64,7 +74,6 @@
     justify-content: center;
     font-family: "Rubik";
     padding: 20px;
-
 }
 
 .aboutme h3 {
@@ -76,7 +85,7 @@
 }
 .aboutme h6 {
     font-size: 1.8vw;
-    color:#656565;
+    color: #656565;
     letter-spacing: 0px;
 }
 
@@ -88,8 +97,15 @@
     .cont {
         display: flex;
         align-items: flex-start;
-        padding-top: 15%;
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     img {
         height: 200px;
@@ -117,27 +133,25 @@
         height: 35%;
         width: 35%;
     }
-    .contactmebtn{
-        /* margin:0px 20px; */
+    .contactmebtn {
         text-align: center;
-        height:50px;
-        width:150px;
+        height: 50px;
+        width: 150px;
         border-radius: 50px;
         background-color: transparent;
-        border:2px solid rgb(110, 25, 248);
+        border: 2px solid rgb(110, 25, 248);
         font-size: 18px;
-     }
-     .resumebtn{
-        margin:0px 15px;
-       text-align: center;
-       height:50px;
-       width:150px;
-       border-radius: 50px;
-       background-color: transparent;
-       border:2px solid rgb(110, 25, 248);
-       font-size: 18px;
     }
-
+    .resumebtn {
+        margin: 0px 15px;
+        text-align: center;
+        height: 50px;
+        width: 150px;
+        border-radius: 50px;
+        background-color: transparent;
+        border: 2px solid rgb(110, 25, 248);
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width: 450px) {
@@ -154,6 +168,11 @@
     .aboutme {
         padding: 3%;
     }
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media only screen and (max-width: 375px) {
@@ -161,25 +180,24 @@
         height: 200px;
         width: 200px;
     }
-    .contactmebtn{
-        margin:0px 10px;
+    .contactmebtn {
+        margin: 0px 10px;
         text-align: center;
-        height:40px;
-        width:110px;
+        height: 40px;
+        width: 110px;
         border-radius: 50px;
         background-color: transparent;
-        border:2px solid rgb(110, 25, 248);
+        border: 2px solid rgb(110, 25, 248);
         font-size: 15px;
-     }
-     .resumebtn{
-        margin:0px 10px;
-       text-align: center;
-       height:40px;
-       width:110px;
-       border-radius: 50px;
-       background-color: transparent;
-       border:2px solid rgb(110, 25, 248);
-       font-size: 15px;
     }
-
+    .resumebtn {
+        margin: 0px 10px;
+        text-align: center;
+        height: 40px;
+        width: 110px;
+        border-radius: 50px;
+        background-color: transparent;
+        border: 2px solid rgb(110, 25, 248);
+        font-size: 15px;
+    }
 }

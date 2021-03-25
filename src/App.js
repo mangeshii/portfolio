@@ -4,6 +4,8 @@ import Education from "./components/Education/Education"
 function App() {
     return (
       <>
+
+
       <Home/>
       <Education/>
       </>

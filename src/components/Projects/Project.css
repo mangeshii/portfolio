@@ -1,22 +1,36 @@
-.projectWrapper {
-    display: flex;
-    flex-direction: column;
-    height: auto;
+.projectsection {
     padding-bottom: 5%;
-    width: 100%;
+    margin: 0%;
+    /* border:2px solid red; */
+    /* padding:0% */
 }
-.projectHeading {
+.projectHeader {
+    margin: 8% 0%;
+}
+.projectHeader h1 {
     text-align: center;
-    margin: 5% 0%;
-    font-size: 3vw;
     font-family: "Kanit";
     font-weight: 600;
 }
-.projCont {
+.projectHeader h6 {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    /* margin: 5% 0%; */
+}
+.col {
+    height: 100%;
+    width: 100%;
+}
+.frontcard {
+    height: 250px;
+    width: 100%;
+    margin-left: 0%;
+    border-radius: 15px;
+}
+.container-lg {
     height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    width: 70%;
+    width: 100%;
 }
 
 .card1:after {
@@ -24,8 +38,9 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
+    width: auto;
     height: 100%;
+    width: 100%;
     display: inline-block;
 
     background: linear-gradient(
@@ -35,6 +50,7 @@
     );
     border-radius: 15px;
 }
+
 .card2:after {
     content: "";
     position: absolute;
@@ -77,6 +93,11 @@
     border-radius: 15px;
     background: linear-gradient(
         to bottom,
+        rgba(47, 197, 235, 0.7),
+        rgba(112, 215, 241, 0.9)
+    );
+    background: linear-gradient(
+        to bottom,
         rgba(27, 50, 133, 0.7),
         rgba(26, 51, 105, 0.8)
     );
@@ -96,34 +117,14 @@
         rgba(10, 169, 218, 0.8)
     );
 }
-.card6 {
-    background: linear-gradient(to top left, #4e88a3 0%, #eaebf3 100%);
-    height: 100%;
-    border-radius: 15px;
-}
-.innercard6 {
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    align-items: center;
-}
-.btn {
-    border: 2px solid rgb(110, 25, 248);
-    border-radius: 30px;
-    width: fit-content;
-    color: white;
-}
-.btn:hover {
-    background-color: rgb(110, 25, 248);
-    color: white;
-}
+
 .frontcard {
     border-radius: 15px;
 }
 .flip-card {
     background-color: transparent;
-    width: 320px;
-    height: 265px;
+    width: 100%;
+    height: 250px;
     perspective: 1000px;
     margin: 20px 0px;
     border-radius: 15px;
@@ -209,200 +210,64 @@ a {
 }
 .frontcard {
     width: 100%;
-    height: 265px;
 }
 
-@media only screen and (max-width: 770px) {
-    .projCont {
-        display: flex;
-        justify-content: center;
-    }
-    .projectHeading {
-        font-size: 5vw;
-    }
-    .projCont {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
+@media only screen and (max-width: 1200px) {
     .flip-card-front h3 {
+        font-size: 2vw;
+    }
+    .projectsection {
+        margin-top: 15%;
+    }
+    .gitbutton {
+        height: 5vw;
+    }
+    .flip-card-back p {
+        font-size: 1.5vw;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .flip-card-front h3 {
+        font-size: 2.8vw;
+    }
+    .gitbutton {
+        height: 6vw;
+    }
+    .flip-card-back p {
+        font-size: 1.8vw;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .flip-card-front h3 {
+        font-size: 3.8vw;
+    }
+    .gitbutton {
+        height: 9vw;
+    }
+    .flip-card-back p {
+        font-size: 2.8vw;
+    }
+    .projectHeader h1 {
+        text-align: center;
+        font-family: "Kanit";
+        font-weight: 600;
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .flip-card-front h3 {
+        font-size: 5.8vw;
+    }
+    .gitbutton {
+        height: 12vw;
+    }
+    .flip-card-back p {
         font-size: 4vw;
-        z-index: 1;
+    }
+    .projectHeader h1 {
+        text-align: center;
+        font-family: "Kanit";
         font-weight: 600;
-    }
-    .frontcard {
-        width: 100%;
-        height: 180px;
-    }
-    .card1:after {
-        width: 100%;
-        height: 180px;
-    }
-    .card2:after {
-        width: 100%;
-        height: 180px;
-    }
-    .card3:after {
-        width: 100%;
-        height: 180px;
-    }
-    .card4:after {
-        width: 100%;
-        height: 180px;
-    }
-    .card5:after {
-        width: 100%;
-        height: 180px;
-    }
-    .flip-card {
-        height: 180px;
-        margin: 10px 0px;
-    }
-
-    .projCont {
-        width: 85%;
-    }
-    .flip-card {
-        margin: 10px 0px;
-    }
-    .flip-card-back p {
-        text-align: center;
-        padding: 0px 3%;
-        font-size: 2.5vw;
-        font-family: "Kanit";
-    }
-    .gitbutton {
-        text-align: center;
-        width: fit-content;
-        height: 70%;
-        width: 100%;
-        border-radius: 50px;
-        font-size: 17px;
-        font-family: "Kanit";
-        display: flex;
-        padding: 15px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .btn {
-        border: 2px solid rgb(110, 25, 248);
-        border-radius: 30px;
-        width: fit-content;
-        color: white;
-        height: 50px;
-    }
-}
-@media only screen and (max-width: 450px) {
-    .projectHeading {
-        font-size: 10vw;
-    }
-    .projCont {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    .flip-card-front h3 {
-        font-size: 6vw;
-        z-index: 1;
-        font-weight: 600;
-    }
-    .frontcard {
-        width: 100%;
-        height: 180px;
-    }
-    .card1:after {
-        width: 100%;
-        height: 180px;
-    }
-    .card2:after {
-        width: 100%;
-        height: 180px;
-    }
-    .card3:after {
-        width: 100%;
-        height: 180px;
-    }
-    .card4:after {
-        width: 100%;
-        height: 180px;
-    }
-    .card5:after {
-        width: 100%;
-        height: 180px;
-    }
-    .flip-card {
-        height: 180px;
-        margin: 10px 0px;
-    }
-    .flip-card-back p {
-        text-align: center;
-        padding: 0px 3%;
-        font-size: 3.5vw;
-        font-family: "Kanit";
-    }
-    .gitbutton {
-        text-align: center;
-        width: fit-content;
-        height: 70%;
-        width: 100%;
-        border-radius: 50px;
-        font-size: 17px;
-        font-family: "Kanit";
-        display: flex;
-        padding: 15px;
-        justify-content: center;
-        align-items: center;
-    }
-    .btn {
-        border: 2px solid rgb(110, 25, 248);
-        border-radius: 30px;
-        width: fit-content;
-        color: white;
-        height: 50px;
-    }
-}
-
-@media only screen and (max-width: 377px) {
-    .projectHeading {
-        font-size: 10vw;
-    }
-    .flip-card-front h3 {
-        font-size: 7vw;
-    }
-    .flip-card-back p {
-        text-align: center;
-        padding: 0px 3%;
-        font-size: 3.5vw;
-        font-family: "Kanit";
-    }
-
-    a {
-        text-align: center;
-        width: fit-content;
-        height: 20%;
-        width: fit-content;
-        border-radius: 50px;
-        font-family: "Kanit";
-    }
-    .btn {
-        border: 2px solid rgb(110, 25, 248);
-        border-radius: 30px;
-        width: fit-content;
-        color: white;
-        height: 50px;
-    }
-    .gitbutton {
-        text-align: center;
-        width: fit-content;
-        height: 70%;
-        width: 100%;
-        border-radius: 50px;
-        font-size: 17px;
-        font-family: "Kanit";
-        display: flex;
-        padding: 15px;
-        justify-content: center;
-        align-items: center;
+        font-size: 30px;
     }
 }

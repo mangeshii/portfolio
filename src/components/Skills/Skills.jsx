@@ -1,10 +1,10 @@
 import "./Skills.css";
-import Contact from "../Contact/Contact"
+import Contact from "../Contact/Contact";
 
 const Skills = () => {
     return (
         <>
-            <section className="skillsection">
+            <section className="skillsection" id="skill">
                 <div className="skillHeader">
                     <div className="headingContainer">
                         <div className="skillcolumn">
@@ -46,8 +46,8 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <hr style={{marginTop:'10%'}}/>
-                <Contact/>
+                    <hr style={{ marginTop: "10%" }} />
+                    <Contact />
                 </div>
             </section>
         </>

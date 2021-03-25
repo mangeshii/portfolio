@@ -4,7 +4,7 @@ import Project from "../Projects/Project";
 const Education = () => {
     return (
         <>
-            <div class="section">
+            <div class="section"  id="about">
                 <div class="aboutcontainer">
                     <div class="outeraboutcontainer">
                         <div class="inneraboutcontainer">
@@ -22,7 +22,7 @@ const Education = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="educationWrapper">
+                    <div class="educationWrapper" id="education">
 
                         <div className="educationcontainer">
                         <h1>Education</h1>
