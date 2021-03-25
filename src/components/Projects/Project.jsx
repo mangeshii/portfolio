@@ -5,7 +5,7 @@ import todo from "../../images/todo.png";
 import randomquote from "../../images/random_quote.png";
 import portfolio from "../../images/portfolio.png";
 import Skills from "../Skills/Skills";
-import technicalpaper from "../../images/technicalpaper.png"
+import technicalpaper from "../../images/technicalpaper.png";
 
 const Project = () => {
     return (
@@ -30,7 +30,11 @@ const Project = () => {
                                     description, city and country name from the
                                     API.
                                 </p>
-                              <a href="https://github.com/mangeshii/weather-app-using-react"><button className="gitbutton">See on Github  </button></a>
+                                <a href="https://github.com/mangeshii/weather-app-using-react">
+                                    <button className="gitbutton">
+                                        See on Github{" "}
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -52,7 +56,11 @@ const Project = () => {
                                     page will more information about that
                                     pokemon{" "}
                                 </p>
-                                <a href="https://github.com/mangeshii/pokedex-using-react"><button className="gitbutton">See on Github</button></a>
+                                <a href="https://github.com/mangeshii/pokedex-using-react">
+                                    <button className="gitbutton">
+                                        See on Github
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -73,7 +81,11 @@ const Project = () => {
                                     capability to add, delete and mark as
                                     complete
                                 </p>
-                                <a href="https://github.com/mangeshii/todo-list"><button className="gitbutton">See on Github</button></a>
+                                <a href="https://github.com/mangeshii/todo-list">
+                                    <button className="gitbutton">
+                                        See on Github
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -94,7 +106,11 @@ const Project = () => {
                                     also capable of tweeting one of the random
                                     quote to the twitter
                                 </p>
-                                <a href="https://github.com/mangeshii/random-quote-generator"><button className="gitbutton">See on Github </button></a>
+                                <a href="https://github.com/mangeshii/random-quote-generator">
+                                    <button className="gitbutton">
+                                        See on Github{" "}
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -113,11 +129,14 @@ const Project = () => {
                                     It is a responsive website made with the
                                     help of html, css, react and bootstrap
                                 </p>
-                                <a href="https://github.com/mangeshii/portfolio"><button className="gitbutton">See on Github </button></a>
+                                <a href="https://github.com/mangeshii/portfolio">
+                                    <button className="gitbutton">
+                                        See on Github{" "}
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
-
 
                     <div class="flip-card row col-md-4 col-xs-12 col-sm-6">
                         <div class="flip-card-inner">
@@ -134,22 +153,17 @@ const Project = () => {
                                     It is a responsive website made with the
                                     help of html, css, react and bootstrap
                                 </p>
-                                <a href="https://github.com/mangeshii/portfolio"><button className="gitbutton">See on Github </button></a>
+                                <a href="https://github.com/mangeshii/portfolio">
+                                    <button className="gitbutton">
+                                        See on Github{" "}
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
-
-
-                    {/* <div class="flip-card  col-md-4 col-xs-12 col-sm-6">
-                        <div class=" card6">
-                            <div className="innercard6">
-                           <a href="https://github.com/mangeshii"><button className="btn">Check More Here </button></a>
-                            </div>
-                        </div>
-                    </div> */}
                 </div>
             </div>
-            <Skills/>
+            <Skills />
         </>
     );
 };
