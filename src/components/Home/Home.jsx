@@ -1,15 +1,14 @@
 import "./Home.css";
 import avtar from "../../images/avtar.png";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import Navbar from "../Navbar/Navbar"
 import { Navbar, Nav } from "react-bootstrap";
 
 const Home = () => {
     return (
         <>
             <Navbar className="nav" bg="light" expand="md" fixed="top">
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
+                <Navbar.Toggle className="nav-toggle" aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse className="nav-collapse" id="basic-navbar-nav">
                     <Nav className="ml-auto">
                         <Nav.Link className="nav-link" href="#home">Home</Nav.Link>
                         <Nav.Link className="nav-link" href="#about">About</Nav.Link>
