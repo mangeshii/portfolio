@@ -63,11 +63,11 @@ const Project = () => {
                                             capability to add, delete and mark
                                             as complete
                                         </p>
-                                        <a href="">
+
                                             <button className="gitbutton">
                                                 See on Github
                                             </button>
-                                        </a>
+
                                     </div>
                                 </div>
                             </div>
@@ -150,7 +150,7 @@ const Project = () => {
                                         </p>
                                         <a href="https://github.com/mangeshii/random-quote-generator">
                                             <button className="gitbutton">
-                                                See on Github{" "}
+                                                See on Github
                                             </button>
                                         </a>
                                     </div>
@@ -178,7 +178,7 @@ const Project = () => {
                                         </p>
                                         <a href="https://github.com/mangeshii/weather-app-using-react">
                                             <button className="gitbutton">
-                                                See on Github{" "}
+                                                See on Github
                                             </button>
                                         </a>
                                     </div>
