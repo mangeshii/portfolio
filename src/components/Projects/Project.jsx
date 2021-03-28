@@ -64,10 +64,9 @@ const Project = () => {
                                             as complete
                                         </p>
 
-                                            <button className="gitbutton">
-                                                See on Github
-                                            </button>
-
+                                        <button className="gitbutton">
+                                            See on Github
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -186,6 +185,11 @@ const Project = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="github-link-btn">
+                    <a href="https://github.com/mangeshii?tab=repositories">
+                        <button className="github-link">See more on Github</button>
+                    </a>
                 </div>
             </section>
             <Skills />
