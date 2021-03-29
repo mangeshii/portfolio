@@ -4,7 +4,7 @@ import weatherapp from "../../images/weather_app.png";
 import todo from "../../images/todo.png";
 import randomquote from "../../images/random_quote.png";
 import portfolio from "../../images/portfolio.png";
-import technicalpaper from "../../images/technicalpaper.png";
+import landingpage from "../../images/landing-page.png";
 import Skills from "../Skills/Skills";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -161,21 +161,18 @@ const Project = () => {
                             <div class="flip-card">
                                 <div class="flip-card-inner">
                                     <div class="flip-card-front card6">
-                                        <img
+                                        <img style={{opacity:0.5}}
                                             className="frontcard"
-                                            src={technicalpaper}
+                                            src={landingpage}
                                             alt="Avatar"
                                         />
-                                        <h3>TECHNICAL PAPER</h3>
+                                        <h3>LANDING PAGE</h3>
                                     </div>
                                     <div class="flip-card-back">
                                         <p>
-                                            A Weather App is capable of pulling
-                                            weather information such as
-                                            temperature, weather description,
-                                            city and country name from the API.
+                                                This is a responsive landing page.
                                         </p>
-                                        <a href="https://github.com/mangeshii/weather-app-using-react">
+                                        <a href="https://github.com/mangeshii/landing-page">
                                             <button className="gitbutton">
                                                 See on Github
                                             </button>

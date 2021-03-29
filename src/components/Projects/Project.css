@@ -117,7 +117,22 @@
         rgba(10, 169, 218, 0.8)
     );
 }
+.card6:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    border-radius: 15px;
+    background: linear-gradient(
+        to bottom,
+        rgb(228, 213, 6,0.7),
+        rgb(202, 199, 7,0.8)
+    );
 
+}
 .frontcard {
     border-radius: 15px;
 }
