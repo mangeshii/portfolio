@@ -1,38 +1,29 @@
-.projectsection {
-    padding-bottom: 5%;
-    margin: 0%;
-    /* border:2px solid red; */
-    /* padding:0% */
-}
-.projectHeader {
-    margin: 8% 0%;
-}
-.projectHeader h1 {
-    text-align: center;
-    font-family: "Kanit";
-    font-weight: 600;
-}
-.projectHeader h6 {
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 1px;
-    /* margin: 5% 0%; */
-}
-.col {
-    height: 100%;
-    width: 100%;
-}
-.frontcard {
-    height: 250px;
-    width: 100%;
-    margin-left: 0%;
-    border-radius: 15px;
-}
-.container-lg {
+.project-section {
     height: auto;
-    width: 100%;
+    align-items: center;
+    /* border:2px solid blue */
 }
-
+.project-container {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 7rem 0rem 2rem 0rem;
+    /* border:2px solid rgb(95, 92, 93) */
+}
+.project-container h1 {
+    /* border:2px solid red; */
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Kanit";
+    margin-bottom: 5rem;
+}
+.project-cards {
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
 .card1:after {
     content: "";
     position: absolute;
@@ -128,10 +119,10 @@
     border-radius: 15px;
     background: linear-gradient(
         to bottom,
-        rgb(228, 213, 6,0.7),
-        rgb(202, 199, 7,0.8)
+        rgb(228, 213, 6, 0.7),
+        rgb(202, 199, 7, 0.8)
     );
-
+    opacity: 1.5;
 }
 .frontcard {
     border-radius: 15px;
@@ -139,45 +130,46 @@
 .flip-card {
     background-color: transparent;
     width: 100%;
-    height: 250px;
+    height: 12rem;
     perspective: 1000px;
     margin: 20px 0px;
     border-radius: 15px;
+    border: 2px solid white;
+    margin: 1rem 0rem;
 }
-
 .flip-card-inner {
     position: relative;
     width: 100%;
-    height: 100%;
+    min-height: 12rem;
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 15px;
 }
-
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 }
-
 .flip-card-front,
 .flip-card-back {
     position: absolute;
+    /* width: 35rem; */
     width: 100%;
-    height: 100%;
+    min-height: 12rem;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 15px;
 }
-
 .flip-card-front {
     background-color: #bbb;
     color: black;
+    max-width: 100%;
+    border-radius: 15px;
 }
-
 .flip-card-back {
     background-color: #211f3b;
     color: white;
+    min-height:12rem;
     transform: rotateY(180deg);
     display: flex;
     align-items: center;
@@ -185,13 +177,22 @@
     flex-direction: column;
     justify-content: space-evenly;
 }
+.frontcard {
+    width: 100%;
+    min-height: 12rem;
+}
+img {
+    width: 100%;
+    height: 12rem;
+    border-radius: 15px;
+}
 .flip-card-back p {
     text-align: center;
     padding: 0px 3%;
-    font-size: 1vw;
+    font-size: 1rem;
     font-family: "Kanit";
 }
-a {
+.flip-card-back a {
     text-align: center;
     width: fit-content;
     height: 20%;
@@ -199,16 +200,17 @@ a {
     border-radius: 50px;
     font-family: "Kanit";
 }
-.gitbutton {
-    height: 3vw;
+.flip-card-back a button {
+    height: 2.5rem;
     width: fit-content;
-    padding: 10px 20px;
+    padding: 0rem 2rem;
     border-radius: 30px;
     background: transparent;
     color: white;
     border: 2px solid rgb(110, 25, 248);
+    font-size: 1rem;
 }
-.gitbutton:hover {
+.flip-card-back a button:hover {
     background-color: rgb(110, 25, 248);
 }
 .flip-card-front h3 {
@@ -223,98 +225,125 @@ a {
     letter-spacing: 2px;
     width: 100%;
 }
-.frontcard {
-    width: 100%;
-}
-.github-link-btn{
+
+.github-link-btn {
     text-align: center;
 }
-.projectsection a .github-link{
-    height:auto;
-    width:auto;
-    padding:15px 80px;
-    border-radius: 40px;
-    margin:3% 0%;
-    font-size: 25px;
-    border:transparent;
-    background: transparent;
-    border:2px solid rgb(110, 25, 248)
-}
-.projectsection a .github-link:hover{
-    background-color: rgb(110, 25, 248);
-    color:white
-}
-@media only screen and (max-width: 1200px) {
-    .flip-card-front h3 {
-        font-size: 2vw;
-    }
-    .projectsection {
-        margin-top: 15%;
-    }
-    .gitbutton {
-        height: 5vw;
-    }
-    .flip-card-back p {
-        font-size: 1.5vw;
-    }
-}
-@media only screen and (max-width: 900px) {
-    .flip-card-front h3 {
-        font-size: 2.8vw;
-    }
-    .gitbutton {
-        height: 6vw;
-    }
-    .flip-card-back p {
-        font-size: 1.8vw;
-    }
-}
-@media only screen and (max-width: 600px) {
-    .flip-card-front h3 {
-        font-size: 3.8vw;
-    }
-    .gitbutton {
-        height: 9vw;
-    }
-    .flip-card-back p {
-        font-size: 2.8vw;
-    }
-    .projectHeader h1 {
-        text-align: center;
-        font-family: "Kanit";
-        font-weight: 600;
-        font-size: 35px;
-    }
-}
-@media only screen and (max-width: 500px) {
-    .flip-card-front h3 {
-        font-size: 5.8vw;
-    }
-    .gitbutton {
-        height: 12vw;
-    }
-    .flip-card-back p {
-        font-size: 4vw;
-    }
-    .projectHeader h1 {
-        text-align: center;
-        font-family: "Kanit";
-        font-weight: 600;
-        font-size: 30px;
-    }
-    .projectsection a .github-link{
 
-        padding:10px 50px;
-        border-radius: 40px;
-        margin:3% 0%;
-        font-size: 20px;
-        border:transparent;
-        background: transparent;
-        border:2px solid rgb(110, 25, 248)
+.github-link {
+    height: auto;
+    width: auto;
+    padding: 0.8rem 6rem;
+    border-radius: 40px;
+    margin: 5% 0%;
+    font-size: 1.1rem;
+    border: transparent;
+    background: transparent;
+    border: 2px solid rgb(110, 25, 248);
+}
+.github-link:hover {
+    background-color: rgb(110, 25, 248);
+    color: white;
+}
+
+@media (max-width: 992px) {
+    .project-container h1 {
+        margin-bottom: 5rem !important;
+        font-size: 2.5rem !important;
     }
-    .projectsection a .github-link:hover{
-        background-color: rgb(110, 25, 248);
-        color:white
+    .flip-card {
+        min-height: 15rem;
+
+        margin: 5px 0px;
+    }
+    .flip-card-inner {
+        min-height: 15rem;
+    }
+    .flip-card-front,
+    .flip-card-back {
+        min-height: 15rem;
+    }
+    .frontcard {
+        min-height: 15rem;
+    }
+    img {
+        height: 15rem;
+    }
+    .flip-card-front h3 {
+        font-size: 1.5rem;
+    }
+    .flip-card-back a button {
+        height: 2.5rem;
+        width: fit-content;
+        padding: 0rem 2rem;
+        border-radius: 30px;
+        background: transparent;
+        color: white;
+        border: 2px solid rgb(110, 25, 248);
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-container h1 {
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+    }
+    .flip-card {
+        min-height: 11rem;
+    }
+    .flip-card-inner {
+        min-height: 11rem;
+    }
+    .flip-card-front,
+    .flip-card-back {
+        min-height: 11rem;
+    }
+    .frontcard {
+        min-height: 11rem;
+    }
+    img {
+        height: 11rem;
+    }
+    .flip-card-front h3 {
+        font-size: 1.5rem;
+    }
+    .flip-card-back a button {
+        height: 2.5rem;
+        width: fit-content;
+        padding: 0rem 02rem;
+        border-radius: 30px;
+        background: transparent;
+        color: white;
+        border: 2px solid rgb(110, 25, 248);
+        font-size: 1rem;
+    }
+    .flip-card-back p {
+        text-align: center;
+        padding: 0px 3%;
+        font-size: 0.7rem;
+        font-family: "Kanit";
+    }
+    .flip-card-back a button {
+        height: 2rem;
+        width: fit-content;
+        padding: 0rem 1rem;
+        border-radius: 30px;
+        background: transparent;
+        color: white;
+        border: 2px solid rgb(110, 25, 248);
+        font-size: 0.6rem;
+    }
+    .github-link {
+        height: auto;
+        width: auto;
+        padding: 0.5rem 2rem;
+        border-radius: 40px;
+        margin: 5% 0% 15% 0%;
+        font-size: 1.1rem;
+        border: transparent;
+        background: transparent;
+        border: 2px solid rgb(110, 25, 248);
     }
 
 }
